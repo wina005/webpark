@@ -19,9 +19,14 @@
     </a>
 </div>
 
+
+> [!IMPORTANT]
+> Star before watching to develop good habits.  
+> _(Wina Team - Wins Soft)_  
+
 > [!WARNING]
 > Please do not modify this product to illegal or non compliant software!  
-> _(Wina Team - Wina Soft)_
+> _(Wina Team - Wina Soft)_  
 
 ---
 
@@ -33,12 +38,22 @@ Support some mainstream frameworks.
 You can view the complete usage guide in the doc/folder. 
 
 > [!NOTE]
-> MacOS and Linux versions are currently not debugged!  
+> MacOS and Linux versions are currently not made.    
 > _(Wina Team - Wina Soft)_  
 
 If you find any errors, you can contact our email:**bjcatch@sina.com**.  
 
-## 2. Quick Start
+## 2. Folders and Files
+| Name         | Type   | Note                              |
+|--------------|--------|-----------------------------------|
+| LICENSE.md   | File   | Refer to Part 8                   |
+| PAC.md       | File   | Participate and Contribute        |
+| UPDATE.md    | File   | Display update logs               |
+| document/    | Folder | Display documents                 |
+| src/         | Folder | Display source code               |
+| download/    | Folder | Download and install WebPark IDE  |
+
+## 3. Quick Start
 Quick Start Steps:  
 1. Open the software  
 2. Click on `Create New Project`  
@@ -50,10 +65,27 @@ Quick Start Steps:
     echo "Hello World!"
 ?>
 ```
-6. Click on `Run` in the upper right corner to display `Hello World!`  
+6. Click on `Run` in the upper right corner to display `Hello World!`
+
 **Do you want to deploy?**
 Just press `F13` and enter `Deploy` in the pop-up input box. Click on the pop-up link to see your webpage in the browser!
 
 > [!NOTE]
-> Please press `fn + F13` for macOS system
-> _(Wina Team - Wina Soft)_
+> Please press `fn + F13` for macOS system.  
+> _(Wina Team - Wina Soft)_  
+
+## 4. Participate and Contribute
+[Participate and Contribute](https://github.com/wina005/webpark/blob/main/PAC.md)
+
+## 5. Note
+> [!NOTE]
+> The project is currently in the `alpha` phase.  
+> _(Wina Team - Wina Soft)_  
+
+## 7. Document
+[Document](https://github.com/wina005/webpark/tree/main/document)
+
+## 8. License
+
+## 9. Community
+[Discussion Area](https://github.com/wina005/webpark/discussions)
