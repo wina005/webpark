@@ -20,5 +20,5 @@
 </div>
 
 > [!WARNING]
-> Please do not modify this product to illegal or non compliant software!
-> _Wina Team - Wina Soft_
+> Please do not modify this product to illegal or non compliant software!  
+> _Wina Team - Wina Soft_  
