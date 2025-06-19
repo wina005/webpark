@@ -80,12 +80,14 @@ Just press `F13` and enter `Deploy` in the pop-up input box. Click on the pop-up
 ## 5. Note
 > [!NOTE]
 > The project is currently in the `alpha` phase.  
-> _(Wina Team - Wina Soft)_  
+> _(Wina Team - Wina Soft)_
+
+## 6. Commercialization
+You can definitely use this product to create commercial applications, and it is friendly to commercialization.  
 
 ## 7. Document
 [Document](https://github.com/wina005/webpark/tree/main/document)
 
 ## 8. License
-
-## 9. Community
-[Discussion Area](https://github.com/wina005/webpark/discussions)
+This LICENSE uses the MIT LICENSE.  
+[LICENSE](https://github.com/wina005/webpark/blob/main/LICENSE.md)
