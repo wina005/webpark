@@ -23,10 +23,10 @@ git checkout -b feature/your-feature-name
 
 ##  🧪  development process
 
-### Run the project
+### Run the Node.js project
 ```bash
-Npm install # Install dependencies
-Npm run dev # Start development server
+npm install  # Install dependencies
+npm run dev  # Start development server
 ```
 
 ### Code specifications
@@ -37,7 +37,7 @@ Npm run dev # Start development server
 ### Submit changes
 ```bash
 git add .
-Git commit - m `type: descriptive information`
+git commit -m "type: descriptive information"
 git push origin feature/your-feature-name
 ```
 
