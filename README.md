@@ -3,6 +3,10 @@
 </div>
 
 <div align="center">
+    <h2>Must:</h2>
+    <a href="https://www.w3.org/">
+        <img src="https://img.shields.io/badge/Front&20End-All-FF9300?logo=javascript&logoColor=FF9300">
+    </a>
     <h2>Integrated programming language environment:</h2>
     <a href="https://www.php.net/">
         <img src="https://img.shields.io/badge/PHP-8.2-777BB4?logo=php&logoColor=777BB4">
