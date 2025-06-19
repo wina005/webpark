@@ -87,9 +87,9 @@ Just press `F13` and enter `Deploy` in the pop-up input box. Click on the pop-up
 You can definitely use this product to create commercial applications, and it is friendly to commercialization.  
 
 ## 7. Documents
-[Document](https://github.com/wina005/webpark/tree/main/documents)
-[JavaScript Style Guide](https://github.com/wina005/webpark/blob/main/documents/STYLE_GUIDE.md)
+[Document](https://github.com/wina005/webpark/tree/main/documents)  
+[JavaScript Style Guide](https://github.com/wina005/webpark/blob/main/documents/STYLE_GUIDE.md)  
 
 ## 8. License
 This LICENSE uses the MIT LICENSE.  
-[LICENSE](https://github.com/wina005/webpark/blob/main/LICENSE.md)
+[LICENSE](https://github.com/wina005/webpark/blob/main/LICENSE.md)  
