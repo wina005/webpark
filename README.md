@@ -23,6 +23,8 @@
 > Please do not modify this product to illegal or non compliant software!  
 > _(Wina Team - Wina Soft)_
 
+---
+
 ## 1. Introduce  
 This is a web development IDE created by a team that loves programming. You can use it to create many cool and imaginative web pages!  
 **🔵  PHP support: √**  
