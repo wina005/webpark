@@ -1,12 +1,5 @@
-<style>
-    h1, h2 {
-        border-bottom: none !important;
-        padding-bottom: 0 !important;
-    }
-</style>
-
 <div align="center">
-    <h1 style="border-bottom: none; padding-bottom: 0; margin-bottom: 10px;">Wina WebPark IDE</h1>
+    <h1 class="no-border">Wina WebPark IDE</h1>
 </div>
 
 <div align="center">
