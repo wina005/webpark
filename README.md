@@ -1,16 +1,16 @@
 <div align="center">
-    <h1 class="no-border">Wina WebPark IDE</h1>
+    # Wina WebPark IDE
 </div>
 
 <div align="center">
-    <h2 style="border-bottom: none; padding-bottom: 0; margin-bottom: 10px;">Integrated programming language environment:</h2>
+    ## Integrated programming language environment:
     <a href="https://www.php.net/">
         <img src="https://img.shields.io/badge/PHP-8.2-777BB4?logo=php&logoColor=777BB4">
     </a>
     <a href="https://nodejs.org/">
         <img src="https://img.shields.io/badge/Node.js-20.12-339933?logo=nodedotjs&logoColor=339933">
     </a>
-    <h2 style="border-bottom: none; padding-bottom: 0; margin-bottom: 10px;">Supports programming language development but does not integrate:</h2>
+    ## Supports programming language development but does not integrate:
     <a href="https://www.typescriptlang.org/">
         <img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?logo=typescript&logoColor=3178C6">
     </a>
