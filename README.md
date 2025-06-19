@@ -32,8 +32,28 @@ This is a web development IDE created by a team that loves programming. You can 
 Support some mainstream frameworks.  
 You can view the complete usage guide in the doc/folder. 
 
-> [!TIP]
+> [!NOTE]
 > MacOS and Linux versions are currently not debugged!  
 > _(Wina Team - Wina Soft)_  
 
 If you find any errors, you can contact our email:**bjcatch@sina.com**.  
+
+## 2. Quick Start
+Quick Start Steps:  
+1. Open the software  
+2. Click on `Create New Project`  
+3. Click on `Empty Template`  
+4. Enter `test001` as the project name  
+5. Create index.php and enter:  
+```php
+<?php
+    echo "Hello World!"
+?>
+```
+6. Click on `Run` in the upper right corner to display `Hello World!`  
+**Do you want to deploy?**
+Just press `F13` and enter `Deploy` in the pop-up input box. Click on the pop-up link to see your webpage in the browser!
+
+> [!NOTE]
+> Please press `fn + F13` for macOS system
+> _(Wina Team - Wina Soft)_
