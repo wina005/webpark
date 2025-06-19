@@ -18,3 +18,7 @@
         <img src="https://img.shields.io/badge/Angular-17+-DD0031?logo=angular&logoColor=DD0031">
     </a>
 </div>
+
+> [!WARNING]
+> Please do not modify this product to illegal or non compliant software!
+> _Wina Team - Wina Soft_
