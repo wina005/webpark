@@ -31,7 +31,7 @@ npm run dev  # Start development server
 
 ### Code specifications
 - Using ESLint to check code: ` npm run lint `  
-- Follow the [JavaScript Style Guide](https://github.com/wina005/webpark/blob/main/docs/STYLE_GUIDE.md)  
+- Follow the [JavaScript Style Guide](https://github.com/wina005/webpark/blob/main/documents/STYLE_GUIDE.md)  
 - Ensure all tests pass before submission: npm test`  
 
 ### Submit changes
