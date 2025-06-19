@@ -41,7 +41,7 @@ You can view the complete usage guide in the doc/folder.
 > MacOS and Linux versions are currently not made.    
 > _(Wina Team - Wina Soft)_  
 
-If you find any errors, you can contact our email:**bjcatch@sina.com**.  
+If you find any errors, you can contact our email:**bjcatch@163.com**.  
 
 ## 2. Folders and Files
 | Name         | Type   | Note                              |
