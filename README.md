@@ -25,11 +25,11 @@
 
 ## 1. Introduce  
 This is a web development IDE created by a team that loves programming. You can use it to create many cool and imaginative web pages!  
-🔵  PHP support: √  
-🟢  Node.js support: √  
+**🔵  PHP support: √**  
+**🟢  Node.js support: √**  
 Support some mainstream frameworks.  
 You can view the complete usage guide in the doc/folder.  
 > [!TIP]
 > MacOS and Linux versions are currently not debugged!
 > _(Wina Team - Wina Soft)  _
-If you find any errors, you can contact our email:** bjcatch@sina.com **.  
+If you find any errors, you can contact our email:**bjcatch@sina.com**.  
