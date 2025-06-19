@@ -49,7 +49,7 @@ If you find any errors, you can contact our email:**bjcatch@sina.com**.
 | LICENSE.md   | File   | Refer to Part 8                   |
 | PAC.md       | File   | Participate and Contribute        |
 | UPDATE.md    | File   | Display update logs               |
-| document/    | Folder | Display documents                 |
+| documents/   | Folder | Display documents                 |
 | src/         | Folder | Display source code               |
 | download/    | Folder | Download and install WebPark IDE  |
 
@@ -78,6 +78,7 @@ Just press `F13` and enter `Deploy` in the pop-up input box. Click on the pop-up
 [Participate and Contribute](https://github.com/wina005/webpark/blob/main/PAC.md)
 
 ## 5. Note
+**Notes**: 
 > [!NOTE]
 > The project is currently in the `alpha` phase.  
 > _(Wina Team - Wina Soft)_
@@ -85,8 +86,9 @@ Just press `F13` and enter `Deploy` in the pop-up input box. Click on the pop-up
 ## 6. Commercialization
 You can definitely use this product to create commercial applications, and it is friendly to commercialization.  
 
-## 7. Document
-[Document](https://github.com/wina005/webpark/tree/main/document)
+## 7. Documents
+[Document](https://github.com/wina005/webpark/tree/main/documents)
+[JavaScript Style Guide](https://github.com/wina005/webpark/blob/main/documents/STYLE_GUIDE.md)
 
 ## 8. License
 This LICENSE uses the MIT LICENSE.  
