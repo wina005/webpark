@@ -25,7 +25,9 @@
 
 ---
 
-!!! You can see the wiki.  
+> [!NOTE]
+> You can see the wiki.  
+> _(Wina Team - Wina Soft)_  
 
 ---
 
