@@ -53,7 +53,6 @@ If you find any errors, you can contact our email:**bjcatch@163.com**.
 | LICENSE.md   | File   | Refer to Part 8                   |
 | PAC.md       | File   | Participate and Contribute        |
 | UPDATE.md    | File   | Display update logs               |
-| documents/   | Folder | Display documents                 |
 | src/         | Folder | Display source code               |
 | download/    | Folder | Download and install WebPark IDE  |
 
@@ -91,7 +90,7 @@ Just press `F13` and enter `Deploy` in the pop-up input box. Click on the pop-up
 You can definitely use this product to create commercial applications, and it is friendly to commercialization.  
 
 ## 7. Documents
-[Document](https://github.com/wina005/webpark/tree/main/documents)  
+[Document](https://github.com/wina005/webpark/wiki)  
 [JavaScript Style Guide](https://github.com/wina005/webpark/blob/main/documents/STYLE_GUIDE.md)  
 
 ## 8. License
