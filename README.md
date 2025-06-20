@@ -25,6 +25,10 @@
 
 ---
 
+!!! You can see the wiki.  
+
+---
+
 > [!IMPORTANT]
 > Star before watching to develop good habits.  
 > _(Wina Team - Wins Soft)_  
