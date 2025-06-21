@@ -9,7 +9,7 @@
     </a>
     <h2>Integrated programming language environment:</h2>
     <a href="https://httpd.apache.org/">
-        <img src="https://img.shields.io/badge/Apache-8.2-777BB4?logo=apache&logoColor=777BB4">
+        <img src="https://img.shields.io/badge/Apache-8.2-FFCC22?logo=apache&logoColor=FFCC22">
     </a>
     <a href="https://www.php.net/">
         <img src="https://img.shields.io/badge/PHP-8.2-777BB4?logo=php&logoColor=777BB4">
