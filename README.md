@@ -28,7 +28,7 @@
         <img src="https://img.shields.io/badge/React-18+-33CCFF?logo=react&logoColor=33CCFF">
     </a>
     <a href="https://nextjs.org/">
-        <img src="https://img.shields.io/badge/Next.js-18+-2F2F2F?logo=nextdotjs&logoColor=2F2F2F">
+        <img src="https://img.shields.io/badge/Next.js-12+-2F2F2F?logo=nextdotjs&logoColor=2F2F2F">
     </a>
 </div>
 
