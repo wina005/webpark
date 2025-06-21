@@ -58,7 +58,7 @@ Support some mainstream frameworks.
 You can view the complete usage guide in the doc/folder. 
 
 > [!NOTE]
-> MacOS and Linux versions are currently not made.    
+> MacOS and Linux versions have not been debugged yet.  
 > _(Wina Team - Wina Soft)_  
 
 If you find any errors, you can contact our email:**bjcatch@163.com**.  
