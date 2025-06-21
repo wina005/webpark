@@ -1,47 +1,48 @@
-name: Cross-Platform Build
+name: WebPark Cross-Platform Build
 
 on:
   push:
     branches: [ main ]
   release:
     types: [published]
+  workflow_dispatch:  # 添加手动触发按钮
 
 jobs:
   build-windows:
     runs-on: windows-latest
-    timeout-minutes: 30
+    timeout-minutes: 25
+    env:
+      OUTPUT_DIR: download/zip
+      EXE_NAME: webpark64
 
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Python
+    - name: Setup Python 3.10
       uses: actions/setup-python@v3
       with:
         python-version: '3.10'
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pyinstaller PyQt6
+        pip install pyinstaller PyQt5 pillow
         
     - name: Convert PNG to ICO
       run: |
-        pip install pillow
-        python -c "from PIL import Image; img = Image.open('resource/icon.png'); img.save('icon.ico', format='ICO', sizes=[(256, 256), (128, 128), (64, 64), (48, 48), (32, 32), (16, 16)])"
+        python -c "from PIL import Image; img = Image.open('src/assets/icon.png'); img.save('icon.ico', format='ICO')"
 
-    - name: Build with PyInstaller
+    - name: Build Windows executable
       run: |
-        pyinstaller --noconfirm --windowed --name webpark64 `
+        pyinstaller --noconfirm --windowed --name ${{ env.EXE_NAME }} `
           --icon icon.ico `
-          --add-data "src;src" `
-          --distpath download/zip/w `
+          --distpath ${{ env.OUTPUT_DIR }}/w/bin `
           --workpath build/win `
           src/main.py
 
     - name: Create Windows ZIP
       run: |
-        cd download/zip
+        cd ${{ env.OUTPUT_DIR }}
         Compress-Archive -Path w -DestinationPath ../webpark-w.zip
 
     - name: Upload Windows artifact
@@ -52,67 +53,73 @@ jobs:
 
   build-macos:
     runs-on: macos-latest
-    timeout-minutes: 40
+    timeout-minutes: 35
+    env:
+      OUTPUT_DIR: download/zip
+      APP_NAME: WebPark
 
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Python
+    - name: Setup Python 3.10
       uses: actions/setup-python@v3
       with:
         python-version: '3.10'
 
     - name: Install dependencies
       run: |
-        pip install pyinstaller PyQt6
-        brew install libpng
+        pip install pyinstaller PyQt5
+        brew install imagemagick
 
     - name: Convert PNG to ICNS
       run: |
         mkdir icon.iconset
-        sizes=(16 32 64 128 256 512)
+        # 生成所有必需尺寸
+        sizes=(16 32 128 256 512)
         for size in "${sizes[@]}"; do
-          sips -z $size $size resource/icon.png --out icon.iconset/icon_${size}x${size}.png
-          sips -z $((size*2)) $((size*2)) resource/icon.png --out icon.iconset/icon_${size}x${size}@2x.png
+          sips -z $size $size src/assets/icon.png --out icon.iconset/icon_${size}x${size}.png
+          sips -z $((size*2)) $((size*2)) src/assets/icon.png --out icon.iconset/icon_${size}x${size}@2x.png
         done
         iconutil -c icns icon.iconset -o icon.icns
-        rm -R icon.iconset
 
     - name: Build macOS app
       run: |
-        pyinstaller --noconfirm --windowed --name WebPark \
+        pyinstaller --noconfirm --windowed --name ${{ env.APP_NAME }} \
           --icon icon.icns \
           --osx-bundle-identifier "com.example.webpark" \
-          --add-data "src:src" \
-          --distpath download/zip/mac \
-          --workpath build/mac \
+          --distpath ${{ env.OUTPUT_DIR }}/mac \
           src/main.py
         
-        # 修复macOS应用结构
-        mv download/zip/mac/WebPark.app/Contents/MacOS/webpark64 download/zip/mac/WebPark.app/Contents/MacOS/WebPark
-        sed -i '' 's/webpark64/WebPark/' download/zip/mac/WebPark.app/Contents/Info.plist
+        # 修复应用结构和可执行文件名
+        mv ${{ env.OUTPUT_DIR }}/mac/${{ env.APP_NAME }}.app/Contents/MacOS/${{ env.APP_NAME }} \
+           ${{ env.OUTPUT_DIR }}/mac/${{ env.APP_NAME }}.app/Contents/MacOS/webpark64
+        sed -i '' "s/>${{ env.APP_NAME }}<\/string>/>webpark64<\/string>/" \
+          ${{ env.OUTPUT_DIR }}/mac/${{ env.APP_NAME }}.app/Contents/Info.plist
 
     - name: Create macOS ZIP
       run: |
-        cd download/zip
-        ditto -c -k --sequesterRsrc --keepParent mac ../webpark-mac.zip
+        cd ${{ env.OUTPUT_DIR }}
+        ditto -c -k --sequesterRsrc --keepParent mac ../webpark-m.zip
 
     - name: Upload macOS artifact
       uses: actions/upload-artifact@v3
       with:
         name: webpark-macos
-        path: download/webpark-mac.zip
+        path: download/webpark-m.zip
 
   build-linux:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 25
+    env:
+      OUTPUT_DIR: download/zip
+      EXE_NAME: webpark64
 
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Python
+    - name: Setup Python 3.10
       uses: actions/setup-python@v3
       with:
         python-version: '3.10'
@@ -121,19 +128,17 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y libxcb-xinerama0 libgl1-mesa-glx
-        pip install pyinstaller PyQt6
+        pip install pyinstaller PyQt5
 
     - name: Build Linux executable
       run: |
-        pyinstaller --noconfirm --windowed --name webpark64 \
-          --add-data "src:src" \
-          --distpath download/zip/l/bin \
-          --workpath build/linux \
+        pyinstaller --noconfirm --windowed --name ${{ env.EXE_NAME }} \
+          --distpath ${{ env.OUTPUT_DIR }}/l/bin \
           src/main.py
 
     - name: Create Linux ZIP
       run: |
-        cd download/zip
+        cd ${{ env.OUTPUT_DIR }}
         zip -r ../webpark-l.zip l
 
     - name: Upload Linux artifact
@@ -154,15 +159,16 @@ jobs:
 
     - name: Create release
       uses: softprops/action-gh-release@v1
+      if: github.event_name == 'release'  # 仅在发布时创建Release
       with:
         files: |
           artifacts/webpark-windows
           artifacts/webpark-macos
           artifacts/webpark-linux
         tag_name: v${{ github.run_id }}
-        name: WebPark ${{ github.run_id }}
+        name: WebPark Build ${{ github.run_id }}
         body: |
-          Auto-generated build for:
+          Automated cross-platform build for WebPark
           - Windows: webpark-w.zip
-          - macOS: webpark-mac.zip
+          - macOS: webpark-m.zip
           - Linux: webpark-l.zip
