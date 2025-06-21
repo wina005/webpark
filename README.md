@@ -8,6 +8,9 @@
         <img src="https://img.shields.io/badge/Front%20End-All-FF9300?logo=javascript&logoColor=FF9300">
     </a>
     <h2>Integrated programming language environment:</h2>
+    <a href="https://httpd.apache.org/">
+        <img src="https://img.shields.io/badge/Apache-8.2-777BB4?logo=apache&logoColor=777BB4">
+    </a>
     <a href="https://www.php.net/">
         <img src="https://img.shields.io/badge/PHP-8.2-777BB4?logo=php&logoColor=777BB4">
     </a>
@@ -20,6 +23,12 @@
     </a>
     <a href="https://angular.dev/">
         <img src="https://img.shields.io/badge/Angular-17+-DD0031?logo=angular&logoColor=DD0031">
+    </a>
+    <a href="https://reactjs.org/">
+        <img src="https://img.shields.io/badge/React-18+-33CCFF?logo=react&logoColor=33CCFF">
+    </a>
+    <a href="https://nextjs.org/">
+        <img src="https://img.shields.io/badge/Next.js-18+-2F2F2F?logo=nextdotjs&logoColor=2F2F2F">
     </a>
 </div>
 
