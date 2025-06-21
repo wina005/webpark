@@ -19,7 +19,7 @@
     </a>
     <h2>Supports programming language development but does not integrate:</h2>
     <a href="https://www.typescriptlang.org/">
-        <img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?logo=typescript&logoColor=3178C6">
+        <img src="https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript&logoColor=3178C6">
     </a>
     <a href="https://angular.dev/">
         <img src="https://img.shields.io/badge/Angular-17+-DD0031?logo=angular&logoColor=DD0031">
