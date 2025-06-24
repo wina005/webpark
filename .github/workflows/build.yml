@@ -26,7 +26,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install pyinstaller PyQt5 pillow
+        pip install pyinstaller PyQt6 pillow
         
     - name: Convert PNG to ICO
       run: |
@@ -69,7 +69,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install pyinstaller PyQt5
+        pip install pyinstaller PyQt6
         brew install imagemagick
 
     - name: Convert PNG to ICNS
@@ -128,7 +128,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y libxcb-xinerama0 libgl1-mesa-glx
-        pip install pyinstaller PyQt5
+        pip install pyinstaller PyQt6
 
     - name: Build Linux executable
       run: |
