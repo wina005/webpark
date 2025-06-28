@@ -26,11 +26,10 @@ git checkout -b feature/your-feature-name
 ### Run the Node.js project
 ```bash
 npm install  # Install dependencies
-npm run dev  # Start development server
+npm run dev  # Start development pages
 ```
 
 ### Code specifications
-- Using ESLint to check code: ` npm run lint `  
 - Follow the [JavaScript Style Guide](https://github.com/wina005/webpark/blob/main/documents/STYLE_GUIDE.md)  
 - Ensure all tests pass before submission: npm test`  
 
@@ -64,8 +63,20 @@ Discovered a bug? Please go through the [Issues page](https://github.com/wina005
 **Please include**:  
 1. Detailed reproduction steps  
 2. Expected behavior vs actual behavior  
-3. Environmental information (browser, OS, version)  
-4. Error logs or screenshots  
+3. Environmental information (OS, version)  
+4. Error logs or screenshots
+
+**Issue Template**:
+```markdown
+# Report Issue:
+I have discovered a bug that affects [XXX].
+My operating system is [XXX], version is [XXX], maybe because of [XXX].
+I hope your team members can improve and release a new version as soon as possible.
+[Screenshot here]
+                **User**: _([XXX])_
+                **Datetime**:_([YYYYMMDD])_
+                🥇Important
+```
 
 ##  📚  Document contribution
 Helping to improve documents is equally important! Please:  
