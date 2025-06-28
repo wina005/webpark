@@ -10,7 +10,6 @@ Click the `Fork` button in the upper right corner of the GitHub page to create y
 2. **Clone repository**
 ```bash
 git clone  https://github.com/wina005/webpark.git
-cd wina-webpark-ide
 ```
 
 3. **Set up the development environment**
@@ -22,12 +21,6 @@ git checkout -b feature/your-feature-name
 ```
 
 ##  🧪  development process
-
-### Run the Node.js project
-```bash
-npm install  # Install dependencies
-npm run dev  # Start development pages
-```
 
 ### Code specifications
 - Follow the [JavaScript Style Guide](https://github.com/wina005/webpark/blob/main/documents/STYLE_GUIDE.md)  
