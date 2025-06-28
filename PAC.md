@@ -31,7 +31,6 @@ npm run dev  # Start development pages
 
 ### Code specifications
 - Follow the [JavaScript Style Guide](https://github.com/wina005/webpark/blob/main/documents/STYLE_GUIDE.md)  
-- Ensure all tests pass before submission: npm test`  
 
 ### Submit changes
 ```bash
