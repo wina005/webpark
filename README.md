@@ -111,3 +111,5 @@ You can definitely use this product to create commercial applications, and it is
 ## 8. License
 This LICENSE uses the Apache 2.0 LICENSE.  
 [LICENSE](https://github.com/wina005/webpark/blob/main/LICENSE)  
+This COPYING uses the WOSP (Wina Open Source Protocol) License
+[COPYING](https://github.com/wina005/webpark/blob/main/COPYING)
