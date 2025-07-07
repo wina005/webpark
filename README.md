@@ -109,5 +109,5 @@ You can definitely use this product to create commercial applications, and it is
 [JavaScript Style Guide](https://github.com/wina005/webpark/blob/main/documents/STYLE_GUIDE.md)  
 
 ## 8. License
-This LICENSE uses the MIT LICENSE.  
-[LICENSE](https://github.com/wina005/webpark/blob/main/LICENSE.md)  
+This LICENSE uses the Apache 2.0 LICENSE.  
+[LICENSE](https://github.com/wina005/webpark/blob/main/LICENSE)  
