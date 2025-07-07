@@ -1,0 +1,58 @@
+                           WOSP License
+                        Version 2.7, 2025
+                    https://wina.fwh.is/license
+
+| Copyright (c) Wina 2025
+| WebPark Version 1.0.0-rc
+| WOSP (Wina Open Source Protocol)
+
+BEGIN OF LICENSE
+
+1. Definitions
+1.1. "License" refers to WOSP v2.7.
+1.2. "Licensor" means the copyright owner(s) granting rights under this License.
+1.3. "You" (or "Licensee") signifies any individual or entity exercising permissions granted by this License.
+1.4. "Source Code" denotes the preferred form for making modifications to the software.
+1.5. "Object Code" means any non-Source form of the software (e.g., compiled binaries).
+1.6. "Work" refers to the copyrighted software/database/documentation licensed under WOSP.
+1.7. "Modification" means any addition, deletion, or alteration to the original Work.
+1.8. "Distribute" covers acts of sharing, publishing, transferring, or making available the Work to third parties.
+1.9. "Legal Guardian" (if You are a minor) means Your parent or court-appointed custodian responsible for Your legal compliance.
+
+2. Grant of Rights
+2.1. Copyright License: Subject to Section 3 (Restrictions), Licensor grants You a worldwide, royalty-free, non-exclusive, perpetual license to:
+    a) Reproduce the Work;
+    b) Prepare Derivative Works;
+    c) Distribute the Work or Derivative Works in Source or Object Code form.
+2.2. Patent License: If applicable, Licensor grants You a non-exclusive, royalty-free license to make, use, and sell the Work, limited to patent claims licensable by the Licensor that are necessarily infringed by the unmodified Work alone.
+
+3. Key Conditions & Restrictions
+3.1. Notice Preservation: Every copy of the Work or Derivative Works You Distribute must retain:
+    a) All existing copyright notices;
+    b) This license's full text (including Section 3.1b).
+3.2. Modified Work Notice: If You Distribute a Modification, You must:
+    a) Clearly mark the Work as modified;
+    b) Retain all original notices;
+    c) Add Your own copyright notice documenting Your changes (without implying endorsement by the Licensor).
+3.3. No Trademark Grant: This License does NOT grant permission to use trade names, trademarks, service marks, or product names of the Licensor.
+
+4. Disclaimer of Warranty & Liability
+4.1. "AS IS" Basis: The Work is provided "AS IS" WITHOUT WARRANTIES OF ANY KIND, express or implied, including merchantability, fitness for purpose, or non-infringement.
+4.2. Liability Limitation: In NO EVENT shall the Licensor be liable for any direct, indirect, incidental, or consequential damages arising from use of the Work, even if advised of their possibility.
+
+5. Termination
+5.1. Automatic termination occurs if You materially breach this License and fail to cure within 30 days of notice.
+5.2. Upon termination, You must cease distribution of the Work but retain rights for parties who received copies from You prior to termination.
+
+6. Compliance with Local Laws
+6.1. If You are a minor ("You" under legal age of majority in Your jurisdiction), You affirm that:
+    a) Your Legal Guardian has reviewed and consented to Your acceptance of this License;
+    b) Your Legal Guardian assumes responsibility for Your compliance.
+
+7. Miscellaneous
+7.1. Severability: If any provision is deemed unenforceable, the remainder retains full force.
+7.2. No Waiver: Failure to enforce a provision does not waive future enforcement.
+7.3. Governing Law: This License shall be governed by the laws of the Licensor's jurisdiction (or if unspecified, laws of England and Wales).
+8.4. Entire Agreement: This document constitutes the sole agreement between parties regarding the Work.
+
+END OF LICENSE
