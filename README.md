@@ -61,7 +61,7 @@ You can view the complete usage guide in the doc/folder.
 > MacOS and Linux versions have not been debugged yet.  
 > _(Wina Team - Wina Soft)_  
 
-If you find any errors, you can contact our email:**bjcatch@163.com**.  
+If you find any errors, you can contact our email: wina005@163.com.  
 
 ## 2. Folders and Files
 | Name         | Type   | Note                              |
@@ -70,7 +70,6 @@ If you find any errors, you can contact our email:**bjcatch@163.com**.
 | PAC.md       | File   | Participate and Contribute        |
 | UPDATE.md    | File   | Display update logs               |
 | src/         | Folder | Display source code               |
-| download/    | Folder | Download and install WebPark IDE  |
 
 ## 3. Quick Start
 Quick Start Steps:  
